@@ -1,0 +1,28 @@
+#brands{
+  position: relative;
+}
+
+#brands li{
+  position: relative; 
+  list-style: none; 
+  width: 64px; height: 64px; 
+  overflow: hidden; 
+  float: left; 
+  z-index: 2;
+  margin: 0 5px 5px 0;
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+
+#brands li img{
+  display: block; width: 100%;
+}
+
+#dropbox {
+  min-height: 230px;
+  max-height: 230px;
+}
+
+#dropbox .message{
+  padding-top: 100px;
+}

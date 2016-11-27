@@ -1,0 +1,31 @@
+.avatar-pic {
+  width: 50%;
+  margin: auto;
+}
+
+.avatar img, .avatar .customfile {
+  margin: auto;
+  display: block;
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.avatar .customfile {
+  width: 50%;
+  margin-top: 30px
+}
+
+.remove-picture {
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  left: 100%;
+}
+
+#birth {
+  float: right;
+  width: 49.9%;
+}

@@ -1,0 +1,15 @@
+.average-rating {
+  text-align: center;
+  font-size: 180px;
+  color: #999;
+  border-bottom: 1px solid #EBEBEB;
+  padding: 16px 0;
+}
+
+.good {
+  color: #497EAC;
+}
+
+.bad {
+  color: #F2240E;
+}

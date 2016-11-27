@@ -1,0 +1,79 @@
+.contextmenu {
+  -webkit-user-select: none;
+  display: none;
+  font-size: 13px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  min-width: 100px;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 5px 20px rgba(50, 50, 50, 0.5);
+}
+
+.contextmenu > li {
+  margin: 0;
+  padding: 1px 20px;
+  background-repeat: no-repeat;
+  color: #000;
+}
+
+.contextmenu > li:hover {
+  cursor: pointer;
+  background-color: #497EAC;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4c80e8), to(#0054e4));
+  background-image: -webkit-linear-gradient(top, #4c80e8, #0054e4);
+  background-image: -moz-linear-gradient(top, #4c80e8, #0054e4);
+  background-image: -o-linear-gradient(top, #4c80e8, #0054e4);
+  background-image: -ms-linear-gradient(top, #4c80e8, #0054e4);
+  background-image: linear-gradient(top, #4c80e8, #0054e4);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#4c80e8', EndColorStr='#0054e4');
+}
+
+.contextmenu > li.header:hover {
+  background-color: #fff;
+  background-image: none;
+}
+
+.contextmenu > li > a {
+  position: relative;
+  display: block;
+  padding: 3px 0;
+  text-decoration: none;
+  margin: 1px;
+  color: #000;
+}
+
+.contextmenu > li.color > a {
+  padding: 3px 0 3px 28px;
+}
+
+.contextmenu > li:hover > a {
+  color: #fff;
+}
+
+.contextmenu > li > a .menuicon, .contextmenu > li > a .hex {
+  position: absolute;
+  left: 3px;
+  margin-top: -2px;
+  width: 16px;
+  height: 16px;
+}
+
+.contextmenu > li > a .hex {
+  border: 1px solid #ccc;
+}
+
+.contextmenu > li.divider {
+  border-top: 1px solid #e7e3e7;
+  border-bottom: 1px solid #fffeee;
+  height: 0;
+  padding: 0;
+  margin: 5px 0;
+}
+
+

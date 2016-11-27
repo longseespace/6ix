@@ -1,0 +1,33 @@
+#dashboardchart {
+  min-height: 400px;
+}
+
+#dashboardchart .waiting {
+  margin-left: 50%;
+  margin-top: 180px;
+}
+
+ul.statistics#visitors li a span {
+  width: 100px;
+}
+
+.column-left {
+  width: 39%;
+}
+
+.column-right {
+  width: 59%;
+}
+
+.glyph.refresh {
+  float: right;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.waiting.restart {
+  display: none;
+  float: right;
+  margin-top: 13px;
+  margin-right: 15px;
+}

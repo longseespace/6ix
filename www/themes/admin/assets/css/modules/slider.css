@@ -1,0 +1,145 @@
+.placeholder > div{
+  font-size: 200px;
+  font-family: 'Pictos';
+  text-transform: none;
+  text-align: center;
+  margin-top: -100px;
+}
+
+.customfile{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.placeholder .customfile{
+  margin: 50px auto 0;
+}
+
+.image {
+  overflow: hidden;
+}
+
+.image img{
+  display: block;
+  margin: 0 auto 5px;
+}
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.table li, .table .thead {
+  display: table-row;
+}
+
+.table .cell {
+  border-top: 1px solid #EBEBEB;
+  display: table-cell;
+  cursor: all-scroll;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.table .thead {
+  display: table-header-group;
+}
+
+.table .thead .cell {
+  border-top: none;
+  cursor: default;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.sortable {
+  display: table-footer-group;
+}
+
+fieldset {
+  border: 1px solid #E1E1E1;
+  padding: 10px;
+}
+
+legend {
+  border: 1px solid #E1E1E1;
+  color: #898989;
+  font-size: 10px;
+  font-family: "Tahoma", "Lucida Grande", sans-serif;
+  font-weight: bold;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+#addstocks{
+  margin-right: 0;
+  margin-bottom: 10px;
+  float: right;
+}
+
+#stocks{
+  margin-top: 20px;
+  color: #000;
+}
+
+#stocks a{
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#stocks li{
+  margin-top: 5px;
+}
+
+#stocks h4{
+  display: inline;
+}
+
+#stocks .delete{
+  bottom: 1px;
+  color: red;
+  cursor: pointer;
+  float: right;
+  position: relative;
+}
+
+.description{
+  font-size: 11px;
+  font-style: italic;
+  color: #999;
+}
+
+#modalcontainer {
+  width: 750px;
+}
+
+.error{
+  color: red;
+}
+
+/*.hiddenCheckbox {
+  left: 0 !important;
+  position: static !important;
+}*/
+
+.featured{
+  width: 55%;
+  float: left;
+}
+
+#flashsaleinfo.enabled {
+  background: #EBEBEB;
+  color: #090;
+}
+
+form p.combined input.featured {
+  margin: 5px 10px 0 0;
+}
+
+span.medium {
+  width: 50%;
+  display: block;
+  float: left;
+  margin: -10px 0 5px;
+}

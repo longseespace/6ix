@@ -1,0 +1,41 @@
+#colors, #patterns{
+  position: relative;
+}
+
+#colors li, #patterns li{
+  position: relative;
+  list-style: none;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  float: left;
+  z-index: 2;
+  margin: 0 5px 5px 0;
+  padding: 2px;
+  box-shadow: 0 0 3px #ccc;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#colors li a{
+  width: 64px;
+  height: 64px;
+  display: block;
+}
+
+#colors .delete {
+  display: none;
+  position: absolute;
+  top: -8px;
+  left: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
+#patterns li img{
+  width: 64px;
+  height: 64px;
+  display: block;
+}
+

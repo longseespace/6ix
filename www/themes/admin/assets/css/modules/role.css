@@ -1,0 +1,4 @@
+.datatable tr td:last-child, .datatable tr th:last-child {
+  min-width: 128px;
+  width: 128px;
+}

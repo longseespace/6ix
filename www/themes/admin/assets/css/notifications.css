@@ -1,0 +1,133 @@
+div.jGrowl div.jGrowl-notification.lion{
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid rgba(248, 248, 248, 1);
+	background-image: -webkit-linear-gradient(top, rgba(239,239,239,1), rgba(232,232,232,1));
+	background-image: -moz-linear-gradient(top, rgba(239,239,239,1), rgba(232,232,232,1));
+  width: 300px;
+  line-height: 120%;
+	color: #424242;
+	padding: 0;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-font-smoothing: subpixel-antialiased;
+	font-smoothing: subpixel-antialiased;
+	opacity: 0.9;
+	box-shadow: 0px 5px 5px #888;
+	margin: 10px 16px 10px 10px;
+}
+
+div.jGrowl div.jGrowl-notification.lion:hover{
+  opacity: 1;
+}
+
+div.jGrowl div.jGrowl-notification.lion .border{
+  border-radius: 4px;
+	-webkit-box-shadow: inset 0px 1px 0px rgba(255,255,255,0.4);
+	-moz-box-shadow: inset 0px 1px 0px rgba(255,255,255,0.4);
+	box-shadow: inset 0px 1px 0px rgba(255,255,255,0.4);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.20), rgba(255,255,255,0));
+  background-image: -moz-linear-gradient(top, rgba(255,255,255,0.20), rgba(255,255,255,0));
+	margin: 1px;
+	padding: 5px 8px 5px 5px;
+	clear: both;
+	overflow: hidden;
+	position: relative;
+}
+
+div.jGrowl div.jGrowl-notification.lion .jGrowl-close{
+  font-size: 16px;
+}
+
+div.jGrowl div.jGrowl-notification.lion .jGrowl-message{
+  padding: 10px;
+}
+
+#main{
+/*  position: relative;
+  left: -300px;*/
+}
+
+#notifications{
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#notifications a.show, #notifications a.hide{
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  float: right;
+  margin-top: -3px;
+  margin-right: 3px;
+}
+
+#notifications a.hide{
+  color: #fff;
+}
+
+#notifications .notifications{
+  margin-top: 10px;
+  padding: 0 16px 0 25px;
+  color: #fff;
+  opacity: 0;
+}
+
+#notifications li{
+  padding: 5px 0;
+}
+
+.linen{
+  background: transparent url('../img/linen.png') repeat scroll top left;
+  box-shadow: inset 5px 5px 8px #333;
+}
+
+.delay1s, .notifications.delay1s{
+  transition-delay : 500ms !important;
+  -moz-transition-delay : 500ms !important;
+  -webkit-transition-delay : 500ms !important;
+  -o-transition-delay : 500ms !important;
+  -ms-transition-delay : 500ms !important;
+}
+
+.nodelay{
+  transition-delay : 0 !important;
+  -moz-transition-delay : 0 !important;
+  -webkit-transition-delay : 0 !important;
+  -o-transition-delay : 0 !important;
+  -ms-transition-delay : 0 !important;
+}
+
+#notifications .notifications{
+  transition: opacity 500ms ease;
+  -moz-transition: opacity 500ms ease;
+  -webkit-transition: opacity 500ms ease;
+  -o-transition: opacity 500ms ease;
+  -ms-transition: opacity 500ms ease;
+}
+
+#primary, #secondary, #maincontainer{
+  left: 0;
+  transition: left 500ms ease;
+  -moz-transition: left 500ms ease;
+  -webkit-transition: left 500ms ease;
+  -o-transition: left 500ms ease;
+  -ms-transition: left 500ms ease;
+}
+
+#notifications{
+  transition: width 500ms ease;
+  -moz-transition: width 500ms ease;
+  -webkit-transition: width 500ms ease;
+  -o-transition: width 500ms ease;
+  -ms-transition: width 500ms ease;
+}

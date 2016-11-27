@@ -1,0 +1,131 @@
+label {
+  display: block;
+}
+form input[type="text"].date, form input[type="text"].time {
+  width: 100px;
+}
+
+.tab-content {
+  overflow: visible;
+}
+
+#info > div {
+  margin-bottom: 20px;
+}
+
+#info > div label {
+  margin-bottom: 5px;
+  padding-left: 3px;
+}
+
+#info .errorMessage {
+  color: #d44848;
+}
+
+#flashsale-box .box-content .datepair ul li {
+  list-style: none;
+  margin-left: 0px;
+  padding: 3px 10px;
+}
+
+#flashsale-box .box-content .datepair ul {
+  width: 98px;
+}
+
+#flashsale-box .box-content .datepair input {
+  width: 23%;
+}
+
+.datepicker td, .datepicker th {
+  padding: 5px;
+}
+
+.icon-arrow-left, .icon-arrow-right {
+  font-family: 'Pictos';
+  text-transform: none;
+  background-image: none;
+}
+
+.icon-arrow-left:after {
+  content: '[';
+}
+
+.icon-arrow-right:after {
+  content: ']';
+}
+
+form input[type="search"] {
+  background: url(../../img/input_bg.png) repeat-x #fdfdfd;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: 0 1px 0 #fff;
+  color: #666;
+  font-family: "Aller", "Lucida Grande", sans-serif;
+  font-size: 12px;
+  height: 30px;
+  outline: none;
+  padding: 6px 0 6px 5px;
+  resize: none;
+  width: 100%;
+}
+
+#results {
+  max-height: 430px;
+  overflow: scroll;
+}
+
+#results > div.product, #products > div.product {
+  float: left;
+  width: 100px;
+  max-width: 100px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  height: 135px;
+  max-height: 135px;
+  overflow: hidden;
+}
+
+#results > div.product > a.add, #products > div.product > a.remove {
+  opacity: 0;
+  position: absolute;
+  bottom: 3px;
+  left: 3px;
+  width: 20px;
+  height: 30px;
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-transition: .5s all;
+}
+
+#products > div.product > a.remove {
+  top: 0px;
+}
+
+#results > div.product.hover > a.add {
+  opacity: 1;
+  color: green;
+}
+
+#products > div.product.hover > a.remove {
+  opacity: 1;
+  color: red;
+}
+
+#more {
+  display: none;
+  margin-top: 20px;
+}
+
+#more a{
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}

@@ -1,0 +1,16 @@
+#category-tree, #category-tree li{
+  list-style: none;
+}
+
+#dropbox {
+  min-height: 240px;
+  max-height: 240px;
+}
+
+#dropbox .message{
+  padding-top: 100px;
+}
+
+#category-tree option{
+	padding-left: 10px;
+}
